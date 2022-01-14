@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-14T00:48:37 EST" name="Functional" finished-at="2022-01-14T00:49:03 EST" duration-ms="25961">
+    <groups>
+    </groups>
+    <test started-at="2022-01-14T00:48:37 EST" name="Regression" finished-at="2022-01-14T00:49:03 EST" duration-ms="25961">
+      <class name="TestCases.SearchAndAddToCartTestCase">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:TestCases.SearchAndAddToCartTestCase@3d1cfad4]" started-at="2022-01-14T00:48:37 EST" name="beforeMethod" finished-at="2022-01-14T00:48:43 EST" duration-ms="5827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchANDaddTOcart()[pri:0, instance:TestCases.SearchAndAddToCartTestCase@3d1cfad4]" started-at="2022-01-14T00:48:43 EST" name="searchANDaddTOcart" finished-at="2022-01-14T00:49:02 EST" duration-ms="19922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchANDaddTOcart -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestCases.SearchAndAddToCartTestCase@3d1cfad4]" started-at="2022-01-14T00:49:02 EST" name="afterMethod" finished-at="2022-01-14T00:49:03 EST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- TestCases.SearchAndAddToCartTestCase -->
+    </test> <!-- Regression -->
+  </suite> <!-- Functional -->
+</testng-results>
