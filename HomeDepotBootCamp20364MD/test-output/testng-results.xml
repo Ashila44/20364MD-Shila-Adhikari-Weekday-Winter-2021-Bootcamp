@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-13T21:14:27 EST" name="Functional" finished-at="2022-01-13T21:15:01 EST" duration-ms="33870">
+    <groups>
+    </groups>
+    <test started-at="2022-01-13T21:14:27 EST" name="Regression of Chrome" finished-at="2022-01-13T21:14:59 EST" duration-ms="31903">
+      <class name="TestCases.RegistrationHomeDepotTC">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:TestCases.RegistrationHomeDepotTC@3d1cfad4]" started-at="2022-01-13T21:14:27 EST" name="beforeMethod" finished-at="2022-01-13T21:14:34 EST" duration-ms="7454" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.homedepot.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="homeDepotRegistration()[pri:0, instance:TestCases.RegistrationHomeDepotTC@3d1cfad4]" started-at="2022-01-13T21:14:34 EST" name="homeDepotRegistration" finished-at="2022-01-13T21:14:59 EST" duration-ms="24299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeDepotRegistration -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestCases.RegistrationHomeDepotTC@3d1cfad4]" started-at="2022-01-13T21:14:59 EST" name="afterMethod" finished-at="2022-01-13T21:14:59 EST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- TestCases.RegistrationHomeDepotTC -->
+    </test> <!-- Regression of Chrome -->
+    <test started-at="2022-01-13T21:14:27 EST" name="Regression of Edge" finished-at="2022-01-13T21:15:01 EST" duration-ms="33870">
+      <class name="TestCases.RegistrationHomeDepotTC">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:TestCases.RegistrationHomeDepotTC@71def8f8]" started-at="2022-01-13T21:14:27 EST" name="beforeMethod" finished-at="2022-01-13T21:14:35 EST" duration-ms="8037" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.homedepot.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="homeDepotRegistration()[pri:0, instance:TestCases.RegistrationHomeDepotTC@71def8f8]" started-at="2022-01-13T21:14:35 EST" name="homeDepotRegistration" finished-at="2022-01-13T21:15:00 EST" duration-ms="25454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeDepotRegistration -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestCases.RegistrationHomeDepotTC@71def8f8]" started-at="2022-01-13T21:15:00 EST" name="afterMethod" finished-at="2022-01-13T21:15:01 EST" duration-ms="357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- TestCases.RegistrationHomeDepotTC -->
+    </test> <!-- Regression of Edge -->
+  </suite> <!-- Functional -->
+</testng-results>

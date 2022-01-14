@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name= "Functional" parallel="tests" thread-count="6">
+
+<test name = "Regression of Chrome">
+<parameter name= "Browser" value= "Chrome"></parameter>
+<parameter name = "URL" value = "https://www.homedepot.com/"></parameter>
+<classes>
+<class name = "TestCases.RegistrationHomeDepotTC"></class>
+</classes>
+</test>
+<test name = "Regression of Edge">
+<parameter name= "Browser" value= "Edge"></parameter>
+<parameter name = "URL" value = "https://www.homedepot.com/"></parameter>
+<classes>
+<class name = "TestCases.RegistrationHomeDepotTC"></class>
+</classes>
+</test>
+</suite>
